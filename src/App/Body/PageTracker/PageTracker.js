@@ -1,11 +1,11 @@
 import React from 'react'
 import './PageTracker.css';
-import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
+import AiFillCheckCircle from 'react-icons/ai';
 
 function PageTracker() {
   return (
     <div className="frame-1">
-        <AddCircleOutlineIcon />
+        <AiFillCheckCircle />
         <label className="first">Basic info</label>
         <hr className="line-3"></hr>
         <span class="bi bi-check-circle-fill"></span>
