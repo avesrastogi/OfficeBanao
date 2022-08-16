@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card-title {
+    display: flex;
+    flex-direction: row;
+}
+.card-title-text {
+    position: relative;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.1424px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.card-description {
+    position: relative;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10.4078px;
+    line-height: 12px;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}

@@ -1,0 +1,45 @@
+.frame-1 {
+    position: relative;
+    width: 1310px;
+    height: 59px;
+    left: 0px;
+    top: 1px;
+    overflow: hidden;
+    background: #DEEAFA;
+    border-radius: 9px 9px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.first {
+    position: relative;
+
+    border-radius: nullpx;
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+
+    /* Brand Color 1 */
+
+    color: #121942;
+}
+
+.line-3 {
+    position: relative;
+    height: 3px;
+    width: 60px;
+
+    border-radius: 0px;
+    
+
+    background: #121942;
+}

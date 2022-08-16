@@ -1,0 +1,14 @@
+.Statistics .graphContainer{
+    background-color: black;
+    background-color: rgba(0,0,0,0.75);
+    border: black solid;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-top: 75px;
+    padding: 10px;
+ }
+ 
+ .Statistics .graph{
+    margin-left: 10px;
+    margin-top: 10px;
+ }

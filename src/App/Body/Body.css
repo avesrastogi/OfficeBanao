@@ -1,0 +1,71 @@
+.Body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.proceed-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 180px;
+  height: 39.38px;
+  position: relative;
+  bottom: 5px;
+  left: 1100px;
+
+  /* Brand Color 1 */
+
+  background: #121942;
+  box-shadow: 0px 3.48276px 8.70691px rgba(16, 156, 241, 0.24);
+  border-radius: 5px;
+}
+
+.proceed-txt {
+  width: 49px;
+  height: 15px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.1897px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* white */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.concept-screen {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 1310px;
+  height: 623px;
+  left: 46px;
+  top: 43px;
+
+  background: #FFFFFF;
+  /* Light Blue grey */
+
+  border: 0.75px solid #DEEAFA;
+  /* Normal State Shadow */
+
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin-right: 0;
+  padding-right: 0;
+}
