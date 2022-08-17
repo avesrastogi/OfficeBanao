@@ -13,9 +13,12 @@ function Body() {
         <div className="concept-screen">
           <PageTracker />
           <OfficeCustomization />
-          <button className="proceed-btn">
-            <div className="proceed-txt">Proceed</div>
-          </button>
+          <div className="proceed-style">
+            <button className="proceed-btn">
+              <div className="proceed-txt">Proceed</div>
+            </button>
+          </div>
+
         </div>
 
     </div>

@@ -11,9 +11,10 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div style={{ display: 'flex' }}>
-      <CDBSidebar textColor="#fff" background = "#121942"
-box-shadow = "6px 0px 20px rgba(0, 0, 0, 0.1)">
+    <div
+      style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
+    >
+    <CDBSidebar textColor="#fff" background = "#121942" box-shadow = "6px 0px 20px rgba(0, 0, 0, 0.1)">
         <CDBSidebarHeader prefix={<img src="https://officebanao.com/wp-content/uploads/2022/05/Favicon-Icon.png" alt="logo" className="logo" height={50} width={50}/>}>
           <a href="/" className="text-decoration-none" 
             style={{ color: 'inherit', 
@@ -50,9 +51,7 @@ box-shadow = "6px 0px 20px rgba(0, 0, 0, 0.1)">
 
         <CDBSidebarFooter style={{ textAlign: 'center' }}>
           <div
-            style={{
-              padding: '20px 5px',
-            }}
+
           >
           </div>
         </CDBSidebarFooter>

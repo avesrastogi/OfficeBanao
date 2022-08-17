@@ -5,7 +5,7 @@
     width: 569px;
     height: 217px;
     left: 19px;
-    top: 92px;
+    top: 16px;
 
     /* White */
 
@@ -18,6 +18,9 @@
 
     display: flex;
     flex-direction: column;
+    margin-bottom: 35px;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 

@@ -1,0 +1,12 @@
+.office-details {
+    display: flex;
+    flex-direction: column;
+}
+.chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+
+
+
+}

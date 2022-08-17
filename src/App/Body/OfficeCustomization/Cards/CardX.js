@@ -51,7 +51,7 @@ function CardX({product}) {
   return (
     <div className="card" key={product && product.id ? product.id: "1"}>    
 
-      <Card style={{ width: '203.82px' }}>
+      <Card>
             <Card.Img variant="top" src={product && product.image ? product.image : "https://d3juy0zp6vqec8.cloudfront.net/images/product/Office_Workstation_Linear.jpg"} />
             <Card.Body>
               <div className="card-title">

@@ -11,8 +11,8 @@ const OfficePieChart = (element, data) => {
     .select(element)
     .append("svg")
     .attr("preserveAspectRatio", "xMidYMid meet")
-    .attr("height", "20%")
-    .attr("width", "20%")
+    .attr("height", "70%")
+    .attr("width", "70%")
     .attr("viewBox", `0 0 ${boxSize} ${boxSize}`)
     .append("g")
     .attr("transform", `translate(${boxSize / 2}, ${boxSize / 2})`);

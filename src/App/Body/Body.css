@@ -2,6 +2,9 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    height: '100vh';
+    overflow: 'scroll initial';
+
   }
 
 .proceed-btn {
@@ -9,7 +12,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 
   width: 180px;
   height: 39.38px;
@@ -55,9 +57,8 @@
   position: relative;
   width: 1310px;
   height: 623px;
-  left: 46px;
-  top: 43px;
-
+  left: 16px;
+  top: 20px;
   background: #FFFFFF;
   /* Light Blue grey */
 
@@ -68,4 +69,7 @@
   border-radius: 10px;
   margin-right: 0;
   padding-right: 0;
+}
+.proceed-style {
+  padding: 20px 20px;
 }

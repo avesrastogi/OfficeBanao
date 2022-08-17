@@ -13,7 +13,7 @@ const DonutChart = ({ data }) => {
   }, [ref]);
 
   return (
-    <div className="container">
+    <div className="mt-5 pt-5">
       <div className="graph" ref={ref} />
     </div>
   );

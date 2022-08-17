@@ -2,6 +2,7 @@ import React from 'react'
 import './OfficeDetails.css';
 import OfficeConfiguration from './OfficeConfiguration/OfficeConfiguration'; 
 import ChartComponent from "./ChartComponent/ChartComponent";
+import ChartComponentDetails from './ChartComponent/ChartComponentDetails';
 
 function OfficeDetails() {
 
@@ -14,9 +15,12 @@ function OfficeDetails() {
         ];
 
   return (
-    <div>
+    <div className="office-details">
         <OfficeConfiguration />
-        <ChartComponent data={data} />
+        <div className="chart">
+          <ChartComponent data={data} />
+          <ChartComponentDetails />
+        </div>
     </div>
   )
 }
