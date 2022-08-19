@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './ProjectInfo.css'
 import { useForm } from "react-hook-form";
+import Dropdown from 'react-bootstrap/Dropdown';
 
 function ProjectInfo() {
 
@@ -16,8 +17,22 @@ function ProjectInfo() {
   return (
     <div className="container-1">
         <div className="project-info">
+          <Dropdown className="project-info">
+          <Dropdown.Toggle variant="success" id="dropdown-split-basic">
             <label className="project-name">ProjectName</label>
             <label className="name">New Delhi: Dwarka</label>
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item href="#">
+            <label className="project-name">ProjectName</label>
+            <label className="name">Bangalore: Whitefield</label>
+            </Dropdown.Item>
+            <Dropdown.Item href="#">
+            <label className="project-name">ProjectName</label>
+            <label className="name">Hyderabad: kazikode</label>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
         </div>
         <button className="new-project">
             Start new Project
