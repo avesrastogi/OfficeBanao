@@ -2,16 +2,6 @@
     display: flex;
     flex-direction: row;
     position: relative;
-}
-.line-2 {
-    position: relative;
-    width: 423px;
-    height: 0px;
-    top: 289px;
-
-    /* Text : Icon Gray */
-    margin: 0;
-    padding: 0;
-    border: 1px solid #C2CFE0;
-    transform: rotate(90deg);
+    padding: 1em 0;
+    justify-content: space-between;
 }

@@ -18,10 +18,10 @@ import {useState} from "react";
     }
   let handleChange = (e)=>{
     setNum(e.target.value);
-    } 
-    
-    
-    
+    }
+
+
+
     <div class="input-group-prepend">
                 <Button class="btn btn-outline-primary" type="button" onClick={decNum}>-</Button>
                 </div>
@@ -49,7 +49,7 @@ function CardX({product}) {
   }
 
   return (
-    <div className="card" key={product && product.id ? product.id: "1"}>    
+    <div key={product && product.id ? product.id: "1"}>
 
       <Card>
             <Card.Img variant="top" src={product && product.image ? product.image : "https://d3juy0zp6vqec8.cloudfront.net/images/product/Office_Workstation_Linear.jpg"} />
@@ -67,7 +67,7 @@ function CardX({product}) {
               <Card.Text className="card-description">
               {product && product.content ? product.content : "This space is for a 2 liner short description."}
               </Card.Text>
-              
+
             </Card.Body>
       </Card>
     </div>

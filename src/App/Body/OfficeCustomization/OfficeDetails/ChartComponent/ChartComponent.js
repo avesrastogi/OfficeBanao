@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import OfficePieChart from "./OfficePieChart";
 import './ChartComponent.css';
 
-const DonutChart = ({ data }) => {
+const ChartComponent = ({ data }) => {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -13,10 +13,10 @@ const DonutChart = ({ data }) => {
   }, [ref]);
 
   return (
-    <div className="mt-5 pt-5">
+    <div className="mt-5">
       <div className="graph" ref={ref} />
     </div>
   );
 };
 
-export default DonutChart;
+export default ChartComponent;

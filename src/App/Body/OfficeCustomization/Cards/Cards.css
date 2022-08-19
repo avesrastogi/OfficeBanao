@@ -1,12 +1,12 @@
 .products {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    align-content: flex-end
-
-
+    align-content: center;
+    margin-left: 2em;
 }
 .product {
-    width: 33%;
+    width: 32%;
+    margin-bottom: 1em;
 }

@@ -8,22 +8,10 @@
   }
 
 .proceed-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  width: 180px;
-  height: 39.38px;
-  position: relative;
-  bottom: 5px;
-  left: 1100px;
-
-  /* Brand Color 1 */
-
   background: #121942;
-  box-shadow: 0px 3.48276px 8.70691px rgba(16, 156, 241, 0.24);
+  box-shadow: 0px 3.48276px 8.70691px rgb(16 156 241 / 24%);
   border-radius: 5px;
+  padding: 0.5em 2em;
 }
 
 .proceed-txt {
@@ -53,23 +41,10 @@
 }
 .concept-screen {
   box-sizing: border-box;
-
-  position: relative;
-  width: 1310px;
-  height: 623px;
-  left: 16px;
-  top: 20px;
   background: #FFFFFF;
-  /* Light Blue grey */
-
-  border: 0.75px solid #DEEAFA;
-  /* Normal State Shadow */
-
-  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.03);
-  border-radius: 10px;
-  margin-right: 0;
-  padding-right: 0;
+  padding: 1em;
 }
 .proceed-style {
-  padding: 20px 20px;
+  display: flex;
+  justify-content: flex-end;
 }

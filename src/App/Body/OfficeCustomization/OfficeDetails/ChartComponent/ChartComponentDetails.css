@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: flex-start;
 }
-.boxed-1 {
+.office-space-type {
     box-sizing: border-box;
 
     /* Auto layout */
@@ -14,12 +14,6 @@
     padding: 13px 20px;
     gap: 21px;
 
-    position: absolute;
-    width: 237px;
-    height: 42px;
-    left: 351px;
-    top: 250px;
-
     /* White */
 
     background: #FFFFFF;
@@ -28,110 +22,7 @@
     border: 2px solid #60D1D0;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
-}
-.boxed-2 {
-    box-sizing: border-box;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 13px 20px;
-    gap: 21px;
-
-    position: absolute;
-    width: 237px;
-    height: 42px;
-    left: 351px;
-    top: 315px;
-
-    /* White */
-
-    background: #FFFFFF;
-    /* Brand Color 2 */
-
-    border: 2px solid #60D1D0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-    border-radius: 5px;
-}
-.boxed-3 {
-    box-sizing: border-box;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 13px 20px;
-    gap: 21px;
-
-    position: absolute;
-    width: 237px;
-    height: 42px;
-    left: 351px;
-    top: 375px;
-
-    /* White */
-
-    background: #FFFFFF;
-    /* Brand Color 2 */
-
-    border: 2px solid #60D1D0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-    border-radius: 5px;
-}
-.boxed-4 {
-    box-sizing: border-box;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 13px 20px;
-    gap: 21px;
-
-    position: absolute;
-    width: 237px;
-    height: 42px;
-    left: 351px;
-    top: 435px;
-
-    /* White */
-
-    background: #FFFFFF;
-    /* Brand Color 2 */
-
-    border: 2px solid #60D1D0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-    border-radius: 5px;
-}
-.boxed-5 {
-    box-sizing: border-box;
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 13px 20px;
-    gap: 21px;
-
-    position: absolute;
-    width: 237px;
-    height: 42px;
-    left: 351px;
-    top: 500px;
-
-    /* White */
-
-    background: #FFFFFF;
-    /* Brand Color 2 */
-
-    border: 2px solid #60D1D0;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
-    border-radius: 5px;
+    margin-bottom: 1em;
 }
 .text-1 {
     width: 121px;

@@ -8,23 +8,23 @@ function PageTracker() {
     <div className="frame-1">
         <AiFillCheckCircle/>
         <label className="first">Basic info</label>
-        <hr className="line-3"></hr>
+        <div className="line-3"></div>
 
         <AiFillCheckCircle/>
         <label className="first">Design Style Quiz</label>
-        <hr className="line-3"></hr>
+        <div className="line-3"></div>
 
         <AiFillCheckCircle/>
         <label className="first">Quiz Output</label>
-        <hr className="line-3"></hr>
+        <div className="line-3"></div>
 
         <AiFillCheckCircle/>
         <label className="first">Space Configuration</label>
-        <hr className="line-3"></hr>
+        <div className="line-3"></div>
 
         <BsCircle />
         <label className="first">Cost Packages</label>
-        <hr className="line-3"></hr>
+        <div className="line-3"></div>
 
         <BsCircle />
         <label className="first">Information Upload</label>

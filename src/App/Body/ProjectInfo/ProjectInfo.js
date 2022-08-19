@@ -19,11 +19,11 @@ function ProjectInfo() {
             <label className="project-name">ProjectName</label>
             <label className="name">New Delhi: Dwarka</label>
         </div>
-        <div className="new-project">
-            <label className="new-project-text">Start new Project</label>
-            <form>
-              <button className="new-project-plus" onClick={showFormFunction}>+</button>
-            </form>
+        <button className="new-project">
+            Start new Project
+            <div className='new-project-plus' onClick={showFormFunction}>
+            +
+            </div>
 
             {showForm && (
                   <form onSubmit={handleSubmit(onSubmit)}>
@@ -33,7 +33,7 @@ function ProjectInfo() {
                   <input type="submit" />
                 </form>
             )}
-        </div>
+        </button>
     </div>
   )
 }

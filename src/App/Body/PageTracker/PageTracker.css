@@ -1,7 +1,6 @@
 .frame-1 {
     position: relative;
-    width: 1310px;
-    height: 59px;
+    height: 60px;
     left: 0px;
     top: 1px;
     overflow: hidden;
@@ -19,7 +18,7 @@
     position: relative;
 
     border-radius: nullpx;
-    
+
 
     font-family: 'Roboto';
     font-style: normal;
@@ -35,11 +34,11 @@
 
 .line-3 {
     position: relative;
-    height: 3px;
+    height: 2px;
     width: 60px;
 
     border-radius: 0px;
-    
+
 
     background: #121942;
 }

@@ -8,16 +8,17 @@ import {
   CDBSidebarMenuItem,
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
+import "./Sidebar.css";
 
 const Sidebar = () => {
   return (
     <div
-      style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
+      className='sidebar'
     >
     <CDBSidebar textColor="#fff" background = "#121942" box-shadow = "6px 0px 20px rgba(0, 0, 0, 0.1)">
         <CDBSidebarHeader prefix={<img src="https://officebanao.com/wp-content/uploads/2022/05/Favicon-Icon.png" alt="logo" className="logo" height={50} width={50}/>}>
-          <a href="/" className="text-decoration-none" 
-            style={{ color: 'inherit', 
+          <a href="/" className="text-decoration-none"
+            style={{ color: 'inherit',
               position: 'relative',
               left: '20%',
               right: '32.46%',

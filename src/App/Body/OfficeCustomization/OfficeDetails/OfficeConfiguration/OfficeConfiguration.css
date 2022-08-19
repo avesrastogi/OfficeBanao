@@ -1,194 +1,88 @@
-.frame-8 {
+.office-area-config {
     box-sizing: border-box;
-
-    position: relative;
-    width: 569px;
-    height: 217px;
-    left: 19px;
-    top: 16px;
-
-    /* White */
-
     background: #FFFFFF;
-    /* Text : Icon Gray */
-
     border: 1px solid #C2CFE0;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 5%);
     border-radius: 5px;
-
-    display: flex;
-    flex-direction: column;
     margin-bottom: 35px;
     align-items: flex-start;
     justify-content: flex-start;
+    text-align: left;
+    padding: 1em;
 }
 
 
-.frame-9 {
-    position: relative;
-    padding-left: 20px;
-    text-align: left;
-    top: 11.68%;
-    bottom: 77.66%;
-
-    /* Semi-bold 16pt */
-
-    font-family: 'Roboto';
-    font-style: normal;
+.configure-text {
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.04em;
-
     color: #000000;
 }
-.frame-10 {
-    position: relative;
-    padding-left: 20px;
-    text-align: left;
-    width: 552px;
-    height: 37px;
-    top: 51px;
-
-    /* Light 12pt */
-
-    font-family: 'Roboto';
-    font-style: normal;
+.configure-subtext {
     font-weight: 300;
     font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.04em;
-
-    /* Text : Table Black */
-
     color: #323C47;
+    margin-top: 1em;
 }
-.frame-11 {
-    /* Total Area (SFT) */
-
-
-    position: relative;
-    width: 120px;
-    height: 21px;
-    left: 75px;
-    top: 77px;
-
-    /* Bold 16pt */
-
-    font-family: 'Roboto';
-    font-style: normal;
+.total-area {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.04em;
-
-    /* Text : Black */
-
     color: #192A3E;
-}
-.line {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
     position: relative;
-    width: 56px;
-    height: 0px;
-    left: 283px;
-    top: 67px;
-
-    /* Text : Icon Gray */
-
-    border: 1px solid #C2CFE0;
-    transform: rotate(90deg);
+    height: 100px;
+    align-items: center;
+    margin: 0 2em;
+    margin-top: 1em;
 }
-
-.frame-12 {
-    position: relative;
-    width: 26px;
-    height: 14px;
-    left: 519px;
-    top: 20px;
-
-    /* Regular 12pt */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height */
-
-    letter-spacing: 0.04em;
-
-    /* NUH : Green */
-
-    color: #2ED47A;
+.total-area:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    border: solid 1px #ccc;
+    left: 50%;
+    height: 100%;
 }
+.total-area-text {
 
-.frame-13 {
-    /* 3200 */
-
-
-    position: relative;
-    width: 59px;
-    height: 28px;
-    left: 395px;
-    top: 35px;
-
-    /* Bold 24pt */
-
-    font-family: 'Roboto';
-    font-style: normal;
+}
+.area-input {
+    min-width: 100px;
+    border: none;
+}
+.editable-total-area, .total-configured-area {
+    flex: 1 0 auto;
+}
+.total-configured-area {
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.04em;
-
-    /* NUH : Green */
-
     color: #2ED47A;
 }
-.frame-14 {
-    position: relative;
-    width: 29px;
-    height: 14px;
-    left: 45px;
-
-    /* Regular 12pt */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height */
-
-    letter-spacing: 0.04em;
-
-    color: #000000;
+.area-unit {
+    font-size: 11px;
+    color: #ccc;
+    font-weight: normal;
 }
-.frame-15 {
-    position: relative;
-    width: 539px;
-    height: 18px;
-    left: 13px;
-    top: 63px;
 
-    /* NUH : Green */
+.remaining-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #2ED47A;
+}
 
+.more-area-remaining {
     background: #2ED47A;
-    opacity: 0.7;
-    border-radius: 5px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
-    /* identical to box height */
-
-    letter-spacing: 0.04em;
-
-    /* White */
-
     color: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0.25em;
+    margin-top: 1em;
 }
 input {
     border: 1px solid blue;
@@ -204,9 +98,9 @@ input {
     font: inherit;
     background: none;
   }
-  
+
   input[disabled] {
     border: 0;
   }
-  
+
   a { cursor: pointer; text-decoration: none; }

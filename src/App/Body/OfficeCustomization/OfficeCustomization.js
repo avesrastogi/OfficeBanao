@@ -7,7 +7,6 @@ function OfficeCustomization() {
   return (
     <div className="office-customization">
         <OfficeDetails />
-        <div className="line-2"></div>
         <Cards />
     </div>
   )
